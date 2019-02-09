@@ -15,10 +15,12 @@ class Blink extends Component {
   }
 
   render() {
+    if(!this.state.isShowingText) {
+      return null;
+    }
+
     return(
-      <View>
-        <Text></Text>
-      </View>
+      <Text>{ this.props.text }</Text>
     );
   }
 }
