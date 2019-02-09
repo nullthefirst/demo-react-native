@@ -29,10 +29,10 @@ export default class BlinkApp extends Component {
   render() {
     return(
       <View>
-        <Blink text="" />
-        <Blink text="" />
-        <Blink text="" />
-        <Blink text="" />
+        <Blink text="now you see me" />
+        <Blink text="now you dont" />
+        <Blink text="come on. Yo!" />
+        <Blink text="do you see me still?" />
       </View>
     );
   }
