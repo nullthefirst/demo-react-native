@@ -16,10 +16,10 @@ export default class LotsOfStyles extends Component {
   render() {
     return(
       <View>
-        <Text styles={ styles.red }>just Red</Text>
-        <Text styles={ styles.bigBlue }>just bigBlue</Text>
-        <Text styles={[ styles.bigBlue, styles.red ]}>bigBlue, then red</Text>
-        <Text styles={[ styles.red, styles.bigBlue ]}>red, then bigBlue</Text>
+        <Text style={ styles.red }>just Red</Text>
+        <Text style={ styles.bigBlue }>just bigBlue</Text>
+        <Text style={[ styles.bigBlue, styles.red ]}>bigBlue, then red</Text>
+        <Text style={[ styles.red, styles.bigBlue ]}>red, then bigBlue</Text>
       </View>
     );
   }
