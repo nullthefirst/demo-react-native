@@ -8,7 +8,9 @@ class Blink extends Component {
 
     //Toggle the state every second
     setInterval(() => (
-      this.setState()
+      this.setState(previousState => (
+        { isShowingText: !previousState.isShowingText }
+      ))
     ), 1000);
   }
 
