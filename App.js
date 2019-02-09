@@ -4,7 +4,11 @@ import { View } from 'react-native';
 export default class FixedDimensionsBasics extends Component {
   render() {
     return(
-      <View></View>
+      <View>
+        <View style={{  }} />
+        <View style={{  }} />
+        <View style={{  }} />
+      </View>
     );
   }
 }
