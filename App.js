@@ -6,6 +6,9 @@ export default class LotsOfStyles extends Component {
     return(
       <View>
         <Text styles={{  }}></Text>
+        <Text styles={{  }}></Text>
+        <Text styles={[  ]}></Text>
+        <Text styles={[  ]}></Text>
       </View>
     );
   }
