@@ -6,6 +6,9 @@ const styles = StyleSheet.create({
     color: 'blue',
     fontWeight: 'bold',
     fontSize: 30,
+  },
+  red: {
+    color: 'red'
   }
 });
 
