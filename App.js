@@ -25,11 +25,14 @@ class Blink extends Component {
   }
 }
 
-export default class Stateful extends Component {
+export default class BlinkApp extends Component {
   render() {
     return(
       <View>
-        <Text></Text>
+        <Blink text="" />
+        <Blink text="" />
+        <Blink text="" />
+        <Blink text="" />
       </View>
     );
   }
