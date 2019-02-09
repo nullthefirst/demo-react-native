@@ -18,7 +18,7 @@ export default class LotsOfStyles extends Component {
       <View>
         <Text styles={ styles.red }>just Red</Text>
         <Text styles={ styles.bigBlue }>just bigBlue</Text>
-        <Text styles={[  ]}>bigBlue, then red</Text>
+        <Text styles={[ styles.bigBlue, styles.red ]}>bigBlue, then red</Text>
         <Text styles={[  ]}>red, then bigBlue</Text>
       </View>
     );
