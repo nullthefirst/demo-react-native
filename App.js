@@ -6,7 +6,7 @@ class Blink extends Component {
     super(props);
     this.state = { isShowingText: true };
 
-
+    //Toggle the state every second
   }
 
   render() {
