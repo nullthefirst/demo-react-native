@@ -5,7 +5,9 @@ export default class PizzaTranslator extends Component {
   render() {
     return(
       <View style={{ padding: 40 }}>
-
+        <TextInput
+          style={{ height: 40 }}
+        />
       </View>
     );
   }
