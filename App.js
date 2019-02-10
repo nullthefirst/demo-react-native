@@ -7,6 +7,7 @@ export default class PizzaTranslator extends Component {
       <View style={{ padding: 40 }}>
         <TextInput
           style={{ height: 40 }}
+          placeholder="Type here to translate!"
         />
       </View>
     );
