@@ -26,6 +26,12 @@ const styles = StyleSheet.create({
   },
   button: {
     marginBottom: 20,
-    width: 260
+    width: 260,
+    alignItems: 'center',
+    backgroundColor: '#2196f3'
+  },
+  buttonText: {
+    padding: 20,
+    color: 'white'
   }
 });
