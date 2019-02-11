@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Alert, Button, StyleSheet, View } from 'react-native';
 
-export default class App extends Component {
+export default class ButtonBasics extends Component {
+  onPressButton = () => {Alert.alert('You tapped the button!')};
+
   render() {
     return(
       <View>
