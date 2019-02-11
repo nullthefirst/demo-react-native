@@ -13,7 +13,13 @@ export default class Touchables extends Component {
   render() {
     return(
       <View style={ styles.container }>
-        <Text></Text>
+        <TouchableHighlight
+          onPress={ this.onPressButton }
+          underlayColor="white">
+          <View style={ styles.button }>
+            <Text style={ styles.buttonText }>TouchableHighlight</Text>
+          </View>
+        </TouchableHighlight>
       </View>
     );
   }
