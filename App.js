@@ -20,6 +20,16 @@ export default class ButtonBasics extends Component {
             color="#841584"
           />
         </View>
+        <View style={ styles.alternativeLayoutButtonContainer }>
+          <Button
+            onPress={ this.onPressButton }
+            title="THIS LOOKS GREAT!"
+          />
+          <Button
+            onPress={ this.onPressButton }
+            title="OK!" color="#841584"
+          />
+        </View>
       </View>
     );
   }
@@ -32,5 +42,10 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     margin: 20
+  },
+  alternativeLayoutButtonContainer: {
+    margin: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
 })
