@@ -9,8 +9,15 @@ export default class ButtonBasics extends Component {
       <View style={ styles.container }>
         <View style={ styles.buttonContainer }>
           <Button
-            onPress={this.onPressButton}
-            title="Press Me"
+            onPress={ this.onPressButton }
+            title="PRESS ME"
+          />
+        </View>
+        <View style={ styles.buttonContainer }>
+          <Button
+            onPress={ this.onPressButton }
+            title="PRESS ME"
+            color="#841584"
           />
         </View>
       </View>
