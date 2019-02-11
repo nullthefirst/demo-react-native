@@ -20,6 +20,13 @@ export default class Touchables extends Component {
             <Text style={ styles.buttonText }>TouchableHighlight</Text>
           </View>
         </TouchableHighlight>
+
+        <TouchableOpacity
+          onPress={ this.onPressButton }>
+          <View style={ styles.button }>
+            <Text style={ styles.buttonText }>TouchableOpacity</Text>
+          </View>
+        </TouchableOpacity>
       </View>
     );
   }
