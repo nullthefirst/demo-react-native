@@ -20,5 +20,12 @@ export default class Touchables extends Component {
 }
 
 const styles = StyleSheet.create({
-
+  container: {
+    paddingTop: 60,
+    alignItems: 'center'
+  },
+  button: {
+    marginBottom: 20,
+    width: 260
+  }
 });
