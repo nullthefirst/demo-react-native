@@ -3,7 +3,11 @@ import { Alert, Platform, StyleSheet, Text, TouchableHighlight, TouchableOpacity
 
 export default class Touchables extends Component {
   onPressButton() {
-    Alert.alert('You tapped the button');
+    Alert.alert('You tapped the button!');
+  }
+
+  onLongPressButton() {
+    Alert.alert('You long-pressed the button!');
   }
 
   render() {
