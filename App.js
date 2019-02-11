@@ -6,7 +6,9 @@ export default class ButtonBasics extends Component {
 
   render() {
     return(
-      <View style={ styles.container }></View>
+      <View style={ styles.container }>
+        <View style={ styles.buttonContainer }></View>
+      </View>
     );
   }
 }
@@ -15,5 +17,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center'
+  },
+  buttonContainer: {
+    margin: 20
   }
 })
