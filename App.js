@@ -18,3 +18,7 @@ export default class Touchables extends Component {
     );
   }
 }
+
+const styles = StyleSheet.create({
+
+});
