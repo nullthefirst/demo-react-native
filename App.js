@@ -39,7 +39,7 @@ export default class Touchables extends Component {
         <TouchableWithoutFeedback
           onPress={ this.onPressButton }>
           <View style={ styles.button }>
-            <Text style={ styles.buttonText }>TouchableNativeFeedback</Text>
+            <Text style={ styles.buttonText }>TouchableWithoutFeedback</Text>
           </View>
         </TouchableWithoutFeedback>
 
