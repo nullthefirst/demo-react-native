@@ -12,7 +12,7 @@ export default class Touchables extends Component {
 
   render() {
     return(
-      <View>
+      <View style={ styles.container }>
         <Text></Text>
       </View>
     );
