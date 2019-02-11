@@ -42,6 +42,15 @@ export default class Touchables extends Component {
             <Text style={ styles.buttonText }>TouchableNativeFeedback</Text>
           </View>
         </TouchableWithoutFeedback>
+
+        <TouchableHighlight
+          onPress={ this.onPressButton }
+          onLongPress={ this.onLongPressButton }
+          underlayColor="white">
+          <View style={ styles.button }>
+            <Text style={ styles.buttonText }>Touchable with Long Press</Text>
+          </View>
+        </TouchableHighlight>
       </View>
     );
   }
