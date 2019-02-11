@@ -7,7 +7,12 @@ export default class ButtonBasics extends Component {
   render() {
     return(
       <View style={ styles.container }>
-        <View style={ styles.buttonContainer }></View>
+        <View style={ styles.buttonContainer }>
+          <Button
+            onPress={this.onPressButton}
+            title="Press Me"
+          />
+        </View>
       </View>
     );
   }
