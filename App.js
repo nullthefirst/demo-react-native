@@ -6,9 +6,14 @@ export default class ButtonBasics extends Component {
 
   render() {
     return(
-      <View>
-        <Text style={{ padding: 20 }}>Hello World</Text>
-      </View>
+      <View style={ styles.container }></View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center'
+  }
+})
